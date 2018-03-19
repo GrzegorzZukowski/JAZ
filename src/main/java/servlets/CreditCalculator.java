@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.itextpdf.text.DocumentException;
+//import com.itextpdf.text.DocumentException;
 
 
 
@@ -67,7 +67,7 @@ public class CreditCalculator extends HttpServlet {
 	
 	String makePdf = request.getParameter("makePdf");
 	if(!(makePdf==null)) {
-		try {
+/*	try {
 			PdfCreator.createPDF();
 		} catch (DocumentException e) {
 			// TODO Auto-generated catch block
@@ -76,6 +76,8 @@ public class CreditCalculator extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}*/
+		response.getWriter().print("utworzono pdf- metoda testowa :P");
 	}
 
 	}

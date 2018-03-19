@@ -1,4 +1,4 @@
-package servlets;
+/*package servlets;
 
 
 import java.io.FileOutputStream;
@@ -12,7 +12,7 @@ import com.itextpdf.text.DocumentException;
 public class PdfCreator {
 	 public static void createPDF() throws IOException, DocumentException, com.lowagie.text.DocumentException {
 	        String HTMLpageUrl = "http://localhost:8080/hello"; // URL strony renderowanej .
-	        String PDFdoc = "RaportKredytowy"; //Wyjúciowy plik PDF
+	        String PDFdoc = "RaportKredytowy"; //Wyj≈ìciowy plik PDF
 	        OutputStream os = new FileOutputStream(PDFdoc);
 	        ITextRenderer renderer = new ITextRenderer();
 	        renderer.setDocument(HTMLpageUrl);
@@ -21,4 +21,4 @@ public class PdfCreator {
 	        os.close();
 	   }
 
-}
+}*/
